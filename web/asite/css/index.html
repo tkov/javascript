@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>tkov | CSS - Cascading Style Sheets</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="index.js"></script>
+</head>
+<body>
+  <header>
+    <!-- Header goes here ... use template? -->
+    <div class="banner"></div>
+    <nav class="navbar">
+      <ul class="nav flex-row row-centre">
+        <li>Home</li>
+         <li>HTML</li>
+         <li>CSS</li>
+         <li>JavaScript</li>
+         <li>Python</li>
+      </ul>
+    </nav>
+  </header>
+  <main class="flex-col">
+    <section id="title" class="flex-row"> 
+    <h1>CSS - Cascading Style Sheets</h1>
+    </section>
+    <section id="links" class="flex-col">
+      <h2>
+      Links
+      </h2>
+      <ul class="links-list">
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">Mozilla | CSS</a></li>
+        <li><a href="https://alligator.io/css/css-resources/">Alligator IO | CSS Resources</a></li>
+      </ul>
+    </section>
+    <section id="frameworks">
+      <h2>Frameworks</h2>
+      <ul class="links-frameworks">
+        <li><img class="sm-logo" src="images/bootstrap-logo.png" alt="Bootstrap Logo">Bootstrap</li>
+        <li><img class="sm-logo" src="images/tailwind-logo.png" alt="TailwindCSS Logo">TailwindCSS</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Snippets</h2>
+      <div id="snippets-container" class="flex-row row-centre">
+        <!-- <div class="card card-tall">Grid Layout</div>
+        <div class="card">Animations</div>
+        <div class="card">Transitions</div>
+        <div class="card">Transforms</div> -->
+        <aside id="snippets-add-form">
+          <form class="form">
+            <label for="title">Title</label><br>
+            <input type="text" name="title" id="input-title"><br>
+            <label for="desc">Description</label><br>
+            <textarea name="desc" id="ta-desc" cols="30" rows="5"></textarea><br>
+            <label for="code">Code</label><br>
+            <textarea name="code" id="ta-code" cols="30" rows="10"></textarea><br>
+            <input type="file" name="file-upload" id="file-upload">
+            <input type="submit" id="submit-btn" value="Add">
+          </form>
+        </aside>
+      </div>
+    </section>
+    <section>
+      <h2>Projects</h2>
+    </section>
+  </main>
+  <footer>
+</footer>
+</body>
+</html>
